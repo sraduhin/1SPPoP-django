@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-21 13:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: app/movies/apps.py:9
+msgid "movies"
+msgstr "фильмы"
+
+#: app/movies/models.py:9
+msgid "movie"
+msgstr "фильм"
+
+#: app/movies/models.py:10
+msgid "tv_show"
+msgstr "шоу"
+
+#: app/movies/models.py:14
+msgid "male"
+msgstr "муж"
+
+#: app/movies/models.py:15
+msgid "female"
+msgstr "жен"
+
+#: app/movies/models.py:19
+msgid "actor"
+msgstr "актёр"
+
+#: app/movies/models.py:20
+msgid "director"
+msgstr "режиссёр"
+
+#: app/movies/models.py:21
+msgid "writer"
+msgstr "сценарист"
+
+#: app/movies/models.py:41
+msgid "name"
+msgstr "наименование"
+
+#: app/movies/models.py:42 app/movies/models.py:87
+msgid "description"
+msgstr "описание"
+
+#: app/movies/models.py:46
+msgid "genre"
+msgstr "жанр"
+
+#: app/movies/models.py:47
+msgid "genres"
+msgstr "жанры"
+
+#: app/movies/models.py:54
+msgid "full_name"
+msgstr "имя"
+
+#: app/movies/models.py:55
+msgid "gender"
+msgstr "пол"
+
+#: app/movies/models.py:59
+msgid "person"
+msgstr "создатель"
+
+#: app/movies/models.py:60
+msgid "persons"
+msgstr "создатели"
+
+#: app/movies/models.py:78
+msgid "role"
+msgstr "роль"
+
+#: app/movies/models.py:86
+msgid "title"
+msgstr "название"
+
+#: app/movies/models.py:88
+msgid "creation_date"
+msgstr "дата создания"
+
+#: app/movies/models.py:89
+msgid "file"
+msgstr "файл"
+
+#: app/movies/models.py:91
+msgid "rating"
+msgstr "рейтинг"
+
+#: app/movies/models.py:97
+msgid "type"
+msgstr "тип"
+
+#: app/movies/models.py:105
+msgid "cerfificate"
+msgstr "сертификат"
+
+#: app/movies/models.py:110
+msgid "filmwork"
+msgstr "кинопроизведение"
+
+#: app/movies/models.py:111
+msgid "filmworks"
+msgstr "кинопроизведения"
