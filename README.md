@@ -7,12 +7,13 @@
 * docker
 * nginx
 
+setup
+```docker network create -d bridge 1SPPoP-network```
 
 run
 ```docker-compose up --build```
 
-
-setup
+run manually to fill database
 ```
 docker exec -it app python3 manage.py populatedb
 docker exec -it app python3 manage.py fillcreationdate
