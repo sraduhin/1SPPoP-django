@@ -16,6 +16,10 @@ services:
     env_file: .env
     volumes:
       - ./app:/opt/app
+    networks:
+      sharednetwork:
+        aliases:
+          - admin.network
 
   nginx:
     image: nginx:${NGINX_VERSION}
@@ -28,6 +32,10 @@ services:
       - app
     ports:
       - "80:80"
+    networks:
+      sharednetwork:
+        aliases:
+          - nginx.network
 
   db:
     image: postgres:${POSTGRES_VERSION}
@@ -46,3 +54,12 @@ services:
       retries: 5
     volumes:
       - ./docker/db_data:/var/lib/postgresql/data
+    networks:
+      sharednetwork:
+        aliases:
+          - db.network
+
+networks:
+  sharednetwork:
+    external: true
+    name: 1SPPoP-network
