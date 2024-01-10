@@ -7,10 +7,10 @@
 * docker
 * nginx
 
-setup
+## Setup
 ```docker network create -d bridge 1SPPoP-network```
 
-run
+## Run
 ```docker-compose up --build```
 
 run manually to fill database
@@ -20,7 +20,7 @@ docker exec -it app python3 manage.py fillcreationdate
 ```
 
 
-check how does it works
+## Check how does it works
 
 ```docker exec -it app python3 manage.pycreatesuperuser```
 
